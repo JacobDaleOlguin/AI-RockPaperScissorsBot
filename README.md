@@ -1,7 +1,9 @@
 Description
+
 This Python script implements a strategy for playing the game Rock-Paper-Scissors against an opponent. The strategy adapts based on the history of the opponent's moves as well as the player's own moves, attempting to predict and counter the opponent's next move based on identified patterns. The bot starts by playing randomly and gradually shifts to a predictive model as it gathers more data from the game rounds.
 
 Features
+
 Dynamic Pattern Recognition: Analyzes recent move patterns from both the player and the opponent to predict the next most likely move.
 Adjustable Parameters: Easily tweak variables such as the number of initial random moves, pattern search size, and history length to optimize performance.
 History Tracking: Maintains a history of moves to aid in pattern recognition and decision-making.
